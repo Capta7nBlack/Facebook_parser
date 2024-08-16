@@ -5,7 +5,7 @@ import sqlite3
 
 
 # Replace with your actual Telegram bot API token
-BOT_TOKEN = '6938106643:AAGkl6G6sqTdBgKZl2DWbHYL8uhV7NI8jqY'
+BOT_TOKEN = ''
 db_path = './database.sql'
 vdb = VDB(Config)
 vdb.load()

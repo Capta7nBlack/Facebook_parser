@@ -3,8 +3,8 @@ import telebot
 import time
 
 # Replace with your bot token
-BOT_TOKEN = '7200182073:AAFjB48AWqcLZ4Ij_w9IN8JKDy7EUg8b87A'
-OWNER_ID = 6162608646
+BOT_TOKEN = ''
+OWNER_ID = ""
 DATABASE = './database.sql'
 bot = telebot.TeleBot(BOT_TOKEN)
 
