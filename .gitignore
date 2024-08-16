@@ -1,0 +1,8 @@
+venv/
+database.sql
+Plan.txt
+test.py
+engine/
+__pycache__/
+output.txt
+Config.py

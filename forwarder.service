@@ -1,0 +1,14 @@
+[Unit]
+Description=Forwarder for facebook parser
+After=network.target
+
+[Service]
+Type=simple
+User=debian
+WorkingDirectory=/home/debian/docs/facebook_scraper
+ExecStart=/home/debian/.python/bin/python3.11 /home/debian/docs/facebook_scraper/forwarder.py
+Restart=always
+StartLimitInterval=0
+
+[Install]
+WantedBy=multi-user.target

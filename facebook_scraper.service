@@ -1,0 +1,15 @@
+[Unit]
+Description=facebook parser
+After=network.target
+Requires=user_interface.service
+
+[Service]
+Type=simple
+User=debian
+WorkingDirectory=/home/debian/docs/facebook_scraper
+ExecStart=/home/debian/.python/bin/python3.11 /home/debian/docs/facebook_scraper/main.py
+Restart=always
+StartLimitInterval=0
+
+[Install]
+WantedBy=multi-user.target
