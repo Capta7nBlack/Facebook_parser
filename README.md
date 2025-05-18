@@ -1,3 +1,5 @@
+--------------   The Repo was copied due to original having sensitive info. Hence, no commit history   --------------   
+
 The git contains facebook scraper tbat takes web link to the group and fetches post messages with the link to them.
     NOTE*   For a proper work of scraper the RUSSIAN LAY OUT is required.
 
